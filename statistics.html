@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        @charset "utf-8";
+        /* Vertical Bar Graph */
+        .vGraph1 {
+            padding: 0 10px;
+        }
+            .vGraph1 ul {
+                position: relative;
+                margin: 0 50px;
+                padding: 0 10px;
+                height: 200px;
+                width: 450px;
+                border: 1px solid #ddd;
+                border-top: 0;
+                border-right: 0;
+                font-size: 11px;
+                font-family: Tahoma, Geneva, sans-serif;
+                list-style: none;
+            }
+
+                .vGraph1 ul:after {
+                    content: "";
+                    display: block;
+                    clear: both;
+                }
+
+            .vGraph1 li {
+                padding: 0 20px;
+                float: left;
+                display: inline;
+                width: 2%;
+                height: 100%;
+                margin: 0 -1.5%;
+                position: relative;
+                text-align: center;
+                white-space: nowrap;
+            }
+
+            .vGraph1 .gTerm {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                height: 20px;
+                line-height: 20px;
+                margin: 0 -100% -20px 0;
+                padding: 200px 0 0 0;
+                vertical-align: bottom;
+                color: #767676;
+                font-weight: bold;
+            }
+
+            .vGraph1 .gBar {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                margin: -1px 0 0 0;
+                border: 1px solid #ccc;
+                border-bottom: 0;
+                background: #e9e9e9;
+                vertical-align: bottom;
+            }
+
+                .vGraph1 .gBar span {
+                    position: absolute;
+                    width: 100%;
+                    top: -20px;
+                    left: 0;
+                    color: #767676;
+                }
+    </style>
+    <h1>&nbsp;&nbsp;통계</h1><br>
+    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<월별총지출></h3>
+    <div class="vGraph1">
+        <ul>
+            <li><span class="gTerm">1월</span><span class="gBar" style="height:26%"><span>26%</span></span></li>
+            <li><span class="gTerm">2월</span><span class="gBar" style="height:20%"><span>20%</span></span></li>
+            <li><span class="gTerm">3월</span><span class="gBar" style="height:22%"><span>22%</span></span></li>
+            <li><span class="gTerm">4월</span><span class="gBar" style="height:30%"><span>30%</span></span></li>
+            <li><span class="gTerm">5월</span><span class="gBar" style="height:25%"><span>25%</span></span></li>
+            <li><span class="gTerm">6월</span><span class="gBar" style="height:40%"><span>40%</span></span></li>
+            <li><span class="gTerm">7월</span><span class="gBar" style="height:36%"><span>36%</span></span></li>
+            <li><span class="gTerm">8월</span><span class="gBar" style="height:42%"><span>42%</span></span></li>
+            <li><span class="gTerm">9월</span><span class="gBar" style="height:33%"><span>33%</span></span></li>
+            <li><span class="gTerm">10월</span><span class="gBar" style="height:52%"><span>52%</span></span></li>
+            <li><span class="gTerm">11월</span><span class="gBar" style="height:45%"><span>45%</span></span></li>
+            <li><span class="gTerm">12월</span><span class="gBar" style="height:50%"><span>50%</span></span></li>
+
+        </ul>
+        <meta charset="UTF-8">
+        <style type="text/css">
+        .vGraph2 {
+            padding: 0 10px;
+        }
+
+            .vGraph2 ul {
+                margin: 0 50px;
+                padding: 0 10px;
+                height: 200px;
+                width: 560px;
+                border: 1px solid #ddd;
+                border-top: 0;
+                border-right: 0;
+                font-size: 11px;
+                font-family: Tahoma, Geneva, sans-serif;
+                list-style: none;
+            }
+
+                .vGraph2 ul:after {
+                    content: "";
+                    display: block;
+                    clear: both;
+                }
+
+            .vGraph2 li {
+                padding: 0 30px;
+                float: left;
+                display: inline;
+                width: 2%;
+                height: 100%;
+                margin: 0 -1.5%;
+                position: relative;
+                text-align: center;
+                white-space: nowrap;
+            }
+
+            .vGraph2 .gTerm {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                height: 20px;
+                line-height: 20px;
+                margin: 0 -100% -20px 0;
+                padding: 200px 0 0 0;
+                vertical-align: bottom;
+                color: #678df8;
+                font-weight: bold;
+            }
+
+            .vGraph2 .gBar {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                margin: -1px 0 0 0;
+                border: 1px solid #ccc;
+                border-bottom: 0;
+                background: #678df8;
+                vertical-align: bottom;
+            }
+
+                .vGraph2 .gBar span {
+                    position: absolute;
+                    width: 100%;
+                    top: -20px;
+                    left: 0;
+                    color: #767676;
+                }
+    </style>
+    <br><br><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<유통기한 지난 식재료></h3>
+    <br><div class="vGraph2">
+        <ul>
+            <li><span class="gTerm">유제품</span><span class="gBar" style="height: 200px;"><span>1위</span></span></li>
+            <li><span class="gTerm">육류</span><span class="gBar" style="height: 180px;"><span>2위</span></span></li>
+            <li><span class="gTerm">수산물</span><span class="gBar" style="height: 160px;"><span>3위</span></span></li>
+            <li><span class="gTerm">채소</span><span class="gBar" style="height: 140px;"><span>4위</span></span></li>
+            <li><span class="gTerm">과일</span><span class="gBar" style="height: 120px;"><span>5위</span></span></li>
+            <li><span class="gTerm">곡물</span><span class="gBar" style="height: 100px;"><span>6위</span></span></li>
+            <li><span class="gTerm">가공식품</span><span class="gBar" style="height: 80px;"><span>7위</span></span></li>
+            <li><span class="gTerm">견과류</span><span class="gBar" style="height: 60px;"><span>8위</span></span></li>
+            <li><span class="gTerm">향신료</span><span class="gBar" style="height: 40px;"><span>9위</span></span></li>
+            <li><span class="gTerm">조미료</span><span class="gBar" style="height: 20px;"><span>10위</span></span></li>
+        </ul>
+    </div>
+
+    <meta charset="UTF-8">
+        <style type="text/css">
+        .vGraph3 {
+            padding: 0 10px;
+        }
+
+            .vGraph3 ul {
+                margin: 0 50px;
+                padding: 0 10px;
+                height: 200px;
+                width: 560px;
+                border: 1px solid #ddd;
+                border-top: 0;
+                border-right: 0;
+                font-size: 11px;
+                font-family: Tahoma, Geneva, sans-serif;
+                list-style: none;
+            }
+
+                .vGraph3 ul:after {
+                    content: "";
+                    display: block;
+                    clear: both;
+                }
+
+            .vGraph3 li {
+                padding: 0 30px;
+                float: left;
+                display: inline;
+                width: 2%;
+                height: 100%;
+                margin: 0 -1.5%;
+                position: relative;
+                text-align: center;
+                white-space: nowrap;
+            }
+
+            .vGraph3 .gTerm {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                height: 20px;
+                line-height: 20px;
+                margin: 0 -100% -20px 0;
+                padding: 200px 0 0 0;
+                vertical-align: bottom;
+                color: #678df8;
+                font-weight: bold;
+            }
+
+            .vGraph3 .gBar {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                margin: -1px 0 0 0;
+                border: 1px solid #ccc;
+                border-bottom: 0;
+                background: #678df8;
+                vertical-align: bottom;
+            }
+
+                .vGraph3 .gBar span {
+                    position: absolute;
+                    width: 100%;
+                    top: -20px;
+                    left: 0;
+                    color: #767676;
+                }
+    </style>
+    <br><br><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<소비 많은 식재료></h3>
+    <div class="vGraph3">
+        <ul>
+            <li><span class="gTerm">향신료</span><span class="gBar" style="height:56%"><span>126만</span></span></li>
+            <li><span class="gTerm">견과류</span><span class="gBar" style="height:50%"><span>120만</span></span></li>
+            <li><span class="gTerm">유제품</span><span class="gBar" style="height:52%"><span>122만</span></span></li>
+            <li><span class="gTerm">채소</span><span class="gBar" style="height:60%"><span>130만</span></span></li>
+            <li><span class="gTerm">조미료</span><span class="gBar" style="height:55%"><span>125만</span></span></li>
+            <li><span class="gTerm">과일</span><span class="gBar" style="height:70%"><span>140만</span></span></li>
+            <li><span class="gTerm">수산물</span><span class="gBar" style="height:66%"><span>136만</span></span></li>
+            <li><span class="gTerm">육류</span><span class="gBar" style="height:72%"><span>142만</span></span></li>
+            <li><span class="gTerm">곡물</span><span class="gBar" style="height:63%"><span>133만</span></span></li>
+            <li><span class="gTerm">가공식품</span><span class="gBar" style="height:82%"><span>152만</span></span></li>
+        </ul>
+    </div>
+
+    <meta charset="UTF-8">
+        <style type="text/css">
+        .vGraph4 {
+            padding: 0 10px;
+        }
+
+            .vGraph4 ul {
+                margin: 0 50px;
+                padding: 0 10px; 
+                height: 200px;
+                width: 510px;
+                border: 1px solid #ddd;
+                border-top: 0;
+                border-right: 0;
+                font-size: 11px;
+                font-family: Tahoma, Geneva, sans-serif;
+                list-style: none;
+            }
+
+                .vGraph4 ul:after {
+                    content: "";
+                    display: block;
+                    clear: both;
+                }
+
+            .vGraph4 li {
+                padding: 0 30px;
+                float: left;
+                display: inline;
+                width: 2%;
+                height: 100%;
+                margin: 0 -1.5%;
+                position: relative;
+                text-align: center;
+                white-space: nowrap;
+            }
+
+            .vGraph4 .gTerm {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                height: 20px;
+                line-height: 30px;
+                margin: 0 -100% -20px 0;
+                padding: 200px 0 0 0;
+                vertical-align: bottom;
+                color: #e67ebe;
+                font-weight: bold;
+            }
+
+            .vGraph4 .gBar {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                margin: -1px 0 0 0;
+                border: 1px solid #ccc;
+                border-bottom: 0;
+                background: #e67ebe;
+                vertical-align: bottom;
+            }
+
+                .vGraph4 .gBar span {
+                    position: absolute;
+                    width: 100%;
+                    top: -20px;
+                    left: 0;
+                    color: #767676;
+                }
+    </style>
+    <br><br><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<카테고리별 구매 금액></h3>
+    <div class="vGraph4">
+        <ul>
+            <li><span class="gTerm">채소</span><span class="gBar" style="height:140px"><span>200만</span></span></li>
+            <li><span class="gTerm">과일.쌀</span><span class="gBar" style="height:160px"><span>220만</span></span></li>
+            <li><span class="gTerm">수산.해산</span><span class="gBar" style="height:150px"><span>210만</span></span></li>
+            <li><span class="gTerm">정육.계란</span><span class="gBar" style="height:130px"><span>190만</span></span></li>
+            <li><span class="gTerm">반찬</span><span class="gBar" style="height:130px"><span>190만</span></span></li>
+            <li><span class="gTerm">간편식</span><span class="gBar" style="height:120px"><span>180만</span></span></li>
+            <li><span class="gTerm">생수.음료</span><span class="gBar" style="height:125px"><span>185만</span></span></li>
+            <li><span class="gTerm">간식.과자</span><span class="gBar" style="height:110px"><span>170만</span></span></li>
+            <li><span class="gTerm">면.양념</span><span class="gBar" style="height:115px"><span>175만</span></span></li>
+        </ul>
+    </div>
+    <br><br><br>
+
+</body>
+</html>
